@@ -1,0 +1,27 @@
+
+.side-bar{
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(228, 228, 228);top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding: 10px;
+
+}
+.side-pic{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.side-name{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.pic1:hover{
+    background-color: rgb(216, 213, 213);
+}

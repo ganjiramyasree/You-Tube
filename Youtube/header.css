@@ -1,0 +1,154 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu{
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.utube-icon{
+    height: 20px;
+    cursor: pointer;
+}
+.mid{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+.searchbar{
+    width: 320px;
+    height: 35px;
+    display: inline-block;
+    font-size: 18px;
+    border-color: rgb(213, 208, 208);
+    cursor: pointer;
+}
+.search{
+    width: 60px;
+    background-color: rgb(249, 243, 243);
+    height: 38px;
+    border: solid 0.5px;
+    border-color: rgb(213, 208, 208);
+    margin-right: 0px;
+    margin-left: -7px;
+    margin-top: -3px;
+    cursor: pointer;
+    position: relative;
+
+}
+.searchbar::placeholder{
+    font-size: 16px;
+}
+.voice{
+    width: 25px;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 75px;
+    margin-left: -6px;
+    margin-top: -3px;
+    margin-right: -10px;
+    margin-bottom: -2px;
+    background-color: rgb(238, 237, 237) ;
+    cursor: pointer;
+    position: relative;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    flex-shrink: 0;
+}
+.upload{
+    width: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.apps{
+    width: 25px;
+    cursor: pointer;
+}
+.notification{
+    width: 25px;
+    cursor: pointer;
+}
+.author{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+.but1, .but2{
+    position: relative;
+    
+}
+.but1 .tooltip,
+.but2 .tooltip{
+    position: absolute;
+    font-size: 20pxpx;
+    color: black;
+    background-color: rgb(203, 200, 200);
+    padding: 4px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.but1:hover .tooltip,
+.but2:hover .tooltip{
+    opacity: 1;
+}
+.but1{
+    height: 40px;
+    width: 60px;
+    position: relative;
+}
+
+.but2{
+    height: 40px;
+    width: 50px;
+    position: relative;
+    margin-left: 10px;
+    border-radius:100px;
+    border-color: rgb(255, 255, 255);
+}
+
+.upload-tool .tooltip,
+.apps-tool .tooltip,
+.notification-tool .tooltip{
+    position:absolute;
+    opacity: 0;
+    transition: opactity 0.15s ;
+    background-color: rgb(203, 200, 200) ;
+    color: black;
+    padding: 4px;
+}
+.upload-tool:hover .tooltip,
+.apps-tool:hover .tooltip,
+.notification-tool:hover .tooltip{
+    opacity: 1;
+}
